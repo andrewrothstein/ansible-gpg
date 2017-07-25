@@ -1,0 +1,19 @@
+---
+- name: resolve platform specific vars
+  include_vars: '{{item}}'
+  with_first_found:
+    - files:
+        - '{{ansible_distribution}}-{{ansible_distribution_release}}.yml'
+        - '{{ansible_distribution}}.yml'
+        - '{{ansible_os_family}}.yml'
+      skip: true
+      paths:
+        - '{{role_path}}/vars'
+
+- name: installing OS pkgs...
+  become: yes
+  become_user: root
+  with_items: '{{gpg_os_pkgs|default(["gpg"])}}'
+  package:
+    name: '{{item}}'
+    state: present
