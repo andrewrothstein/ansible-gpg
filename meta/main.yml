@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Andrew Rothstein
-  description: '@TODO name this role'
+  description: installs GNU privacy guard
   company: PointState Capital
   license:
     - MIT
@@ -22,6 +22,10 @@ galaxy_info:
     - name: Debian
       versions:
         - jessie
+        - stretch
+    - name: Archlinux
+      versions:
+        - all
   galaxy_tags:
     - development
 
