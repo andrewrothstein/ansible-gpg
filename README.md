@@ -1,6 +1,7 @@
 andrewrothstein.gpg
 =========
-[![Build Status](https://travis-ci.org/andrewrothstein/ansible-gpg.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-gpg)
+![Build Status](https://github.com/andrewrothstein/ansible-gpg/actions/workflows/build.yml/badge.svg)
+
 
 Installs [gpg](https://www.gnupg.org/) from OS packages.
 
