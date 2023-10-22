@@ -3,8 +3,7 @@ galaxy_info:
   author: Andrew Rothstein
   description: installs GNU privacy guard
   company: PointState Capital
-  license:
-    - MIT
+  license: MIT
   min_ansible_version: 2.0
   platforms:
     - name: Alpine
