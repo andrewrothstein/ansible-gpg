@@ -2,7 +2,6 @@ andrewrothstein.gpg
 =========
 ![Build Status](https://github.com/andrewrothstein/ansible-gpg/actions/workflows/build.yml/badge.svg)
 
-
 Installs [gpg](https://www.gnupg.org/) from OS packages.
 
 Requirements
