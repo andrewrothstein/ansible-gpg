@@ -10,7 +10,7 @@
       paths:
         - '{{ role_path }}/vars'
 
-- name: installing OS pkgs...
+- name: Installing OS pkgs...
   become: true
   become_user: root
   ansible.builtin.package:
