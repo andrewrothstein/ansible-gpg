@@ -21,12 +21,11 @@ galaxy_info:
         - bullseye
     - name: EL
       versions:
-        - '8'
         - '9'
     - name: Fedora
       versions:
-        - '40'
         - '41'
+        - '42'
     - name: Ubuntu
       versions:
         - jammy
